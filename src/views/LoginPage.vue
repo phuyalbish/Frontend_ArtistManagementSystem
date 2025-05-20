@@ -123,7 +123,7 @@ const setToken = () => {
   })
   axios.defaults.headers.common['Authorization'] = `Bearer ${accessToken.value}`
   window.location.reload()
-  router.push('/')
+  router.push('/dashboard')
 }
 const is_blur = ref(false)
 const is_OpenRestore = ref(false)
